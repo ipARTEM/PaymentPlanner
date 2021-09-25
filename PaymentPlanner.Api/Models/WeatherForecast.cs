@@ -1,6 +1,6 @@
 using System;
 
-namespace PaymentPlanner.Api
+namespace PaymentPlanner.Api.Models
 {
     public class WeatherForecast
     {
