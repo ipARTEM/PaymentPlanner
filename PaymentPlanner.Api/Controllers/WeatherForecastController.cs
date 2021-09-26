@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PaymentPlanner.Api.Models;
+using PaymentPlanner.Api.ResourceModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

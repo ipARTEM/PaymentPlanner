@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using PaymentPlanner.Api.Models;
+using PaymentPlanner.Api.ResourceModels;
 using PaymentPlanner.Api.Services;
 using System;
 using System.Collections.Generic;

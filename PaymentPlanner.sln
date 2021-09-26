@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.Api", "PaymentPlanner.Api\PaymentPlanner.Api.csproj", "{3C3C16E3-CE78-49E7-BD6A-C117AA9DD016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentPlanner.Api", "PaymentPlanner.Api\PaymentPlanner.Api.csproj", "{3C3C16E3-CE78-49E7-BD6A-C117AA9DD016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.Tests", "PaymentPlanner.Tests\PaymentPlanner.Tests.csproj", "{1366A68B-3A53-49A8-B4DD-D888E66331FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentPlanner.Tests", "PaymentPlanner.Tests\PaymentPlanner.Tests.csproj", "{1366A68B-3A53-49A8-B4DD-D888E66331FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.BusinessLogic", "PaymentPlanner.BusinessLogic\PaymentPlanner.BusinessLogic.csproj", "{FB689FC9-DD7E-4990-A088-9DE3DEE3C4D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.DataAccess", "PaymentPlanner.DataAccess\PaymentPlanner.DataAccess.csproj", "{54A4626F-5BB6-4F00-AC55-7C2477DE4A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.Core", "PaymentPlanner.Core\PaymentPlanner.Core.csproj", "{A8977D0B-2FC2-42ED-9B25-58F914D3CFAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{1366A68B-3A53-49A8-B4DD-D888E66331FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1366A68B-3A53-49A8-B4DD-D888E66331FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1366A68B-3A53-49A8-B4DD-D888E66331FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB689FC9-DD7E-4990-A088-9DE3DEE3C4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB689FC9-DD7E-4990-A088-9DE3DEE3C4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB689FC9-DD7E-4990-A088-9DE3DEE3C4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB689FC9-DD7E-4990-A088-9DE3DEE3C4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A4626F-5BB6-4F00-AC55-7C2477DE4A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A4626F-5BB6-4F00-AC55-7C2477DE4A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A4626F-5BB6-4F00-AC55-7C2477DE4A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A4626F-5BB6-4F00-AC55-7C2477DE4A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8977D0B-2FC2-42ED-9B25-58F914D3CFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8977D0B-2FC2-42ED-9B25-58F914D3CFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8977D0B-2FC2-42ED-9B25-58F914D3CFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8977D0B-2FC2-42ED-9B25-58F914D3CFAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

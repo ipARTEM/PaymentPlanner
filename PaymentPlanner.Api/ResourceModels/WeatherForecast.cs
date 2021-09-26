@@ -1,6 +1,6 @@
 using System;
 
-namespace PaymentPlanner.Api.Models
+namespace PaymentPlanner.Api.ResourceModels
 {
     public class WeatherForecast
     {
