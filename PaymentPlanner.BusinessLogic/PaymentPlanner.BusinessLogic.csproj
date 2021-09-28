@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PaymentPlanner.Core\PaymentPlanner.Core.csproj" />
+    <ProjectReference Include="..\PaymentPlanner.DataAccess\PaymentPlanner.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
