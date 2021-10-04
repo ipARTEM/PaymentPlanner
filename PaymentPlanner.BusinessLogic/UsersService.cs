@@ -6,11 +6,15 @@ namespace PaymentPlanner.BusinessLogic
 {
 	public class UsersService : IUsersService
 	{
-		private IUsersRepository _usersRepository;
+		private readonly IUsersRepository _usersRepository;
 
-		public UsersService(IUsersRepository usersRepository)
+        //public GithubClient GithubClient { get; set; }
+
+        private readonly GithubClient _githubClient;
+		public UsersService(IUsersRepository usersRepository, GithubClient githubClient)
 		{
 			_usersRepository = usersRepository;
+            _githubClient = githubClient;
 		}
 
 
@@ -25,8 +29,25 @@ namespace PaymentPlanner.BusinessLogic
             
 			var users = _usersRepository.Get();
 
+            var client = new GithubClient();
+            var githubUser= _githubClient.Get("nickname");
+
 			return users;
         }
+    }
+
+    public class GithubClient
+    {
+        public GithubUser Get(string nuckname)
+        {
+            return new GithubUser();
+
+        }
+    }
+
+    public class GithubUser
+    {
+
     }
 
 

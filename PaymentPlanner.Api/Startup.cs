@@ -55,6 +55,8 @@ namespace PaymentPlanner.Api
             {
                 endpoints.MapControllers();
             });
+
+            
         }
     }
 }

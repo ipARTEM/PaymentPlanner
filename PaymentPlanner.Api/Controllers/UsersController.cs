@@ -19,7 +19,9 @@ namespace PaymentPlanner.Api.Controllers
 		public UsersController()
 		{
 			IUsersRepository usersRepository = new UsersRepository();
-			IUsersService _userService = new UsersService(usersRepository);
+			UsersService _userService = new UsersService(usersRepository,null);
+
+			//_userService.GithubClient = new GithubClient();			
 		}
 
 		[HttpGet]

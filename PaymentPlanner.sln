@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentPlanner.Core", "Paym
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PaymentPlanner.DataBase", "PaymentPlanner.DataBase\PaymentPlanner.DataBase.sqlproj", "{E36A01C5-7A81-485E-8119-3789C73F47FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DITests", "DITests\DITests.csproj", "{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{E36A01C5-7A81-485E-8119-3789C73F47FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E36A01C5-7A81-485E-8119-3789C73F47FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E36A01C5-7A81-485E-8119-3789C73F47FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
