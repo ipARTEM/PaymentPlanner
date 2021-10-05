@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentPlanner.Core", "Paym
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PaymentPlanner.DataBase", "PaymentPlanner.DataBase\PaymentPlanner.DataBase.sqlproj", "{E36A01C5-7A81-485E-8119-3789C73F47FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DITests", "DITests\DITests.csproj", "{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DITests", "DITests\DITests.csproj", "{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.BusinessLogic.MsTests", "PaymentPlanner.BusinessLogic.MsTests\PaymentPlanner.BusinessLogic.MsTests.csproj", "{CBF67093-64B3-4C6C-9415-DC4B56717BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.BusinessLogic.NTests", "PaymentPlanner.BusinessLogic.NTests\PaymentPlanner.BusinessLogic.NTests.csproj", "{C54ACDC8-A905-4C38-BD80-FBB918DE11C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.BusinessLogic.XTests", "PaymentPlanner.BusinessLogic.XTests\PaymentPlanner.BusinessLogic.XTests.csproj", "{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,18 @@ Global
 		{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF67093-64B3-4C6C-9415-DC4B56717BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF67093-64B3-4C6C-9415-DC4B56717BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF67093-64B3-4C6C-9415-DC4B56717BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF67093-64B3-4C6C-9415-DC4B56717BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54ACDC8-A905-4C38-BD80-FBB918DE11C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54ACDC8-A905-4C38-BD80-FBB918DE11C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54ACDC8-A905-4C38-BD80-FBB918DE11C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54ACDC8-A905-4C38-BD80-FBB918DE11C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

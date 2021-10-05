@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace DITests
 {
@@ -8,26 +9,26 @@ namespace DITests
         {
             Console.WriteLine("Hello World!");
 
-            var client = new GithubClient();
-            var service = new UsersService(client);
+            var collection = new ServiceCollection();
 
-            // requests-scope
+            collection.AddSingleton<UsersService>();
+            collection.AddSingleton<GithubClient>();
+
+            var provider = collection.BuildServiceProvider();
+
+            using (var scope = provider.CreateScope())
             {
-                
+                var service = scope.ServiceProvider.GetService<UsersService>();
                 var controller = new UsersController(service);
-
                 controller.Print();
-               
 
             }
 
-            // requests-scope
+            using (var scope = provider.CreateScope())
             {
-                
+                var service = scope.ServiceProvider.GetService<UsersService>();
                 var controller = new UsersController(service);
-
                 controller.Print();
-                
 
             }
         }
