@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using PaymentPlanner.BusinessLogic;
 using PaymentPlanner.Core;
+using PaymentPlanner.Core.Repositories;
+using PaymentPlanner.Core.Services;
 using PaymentPlanner.DataAccess;
 using System;
 using System.Collections.Generic;
@@ -10,16 +12,32 @@ using System.Threading.Tasks;
 
 namespace PaymentPlanner.Api.Controllers
 {
+
+
+	[ApiController]
+	[Route("[controller]")]
+	public class HomeworksController : ControllerBase
+    {
+        private readonly IHomeworksService _homeworksService;
+
+        public HomeworksController(IHomeworksService homeworksService)
+        {
+			_homeworksService = homeworksService;
+        }
+    }
+
+
+
 	[ApiController]
 	[Route("[controller]")]
 	public class UsersController : ControllerBase
 	{
-		private IUsersService _userService;
+		private readonly  IUsersService _userService;
 
 		public UsersController()
 		{
-			IUsersRepository usersRepository = new UsersRepository();
-			UsersService _userService = new UsersService(usersRepository,null);
+			//IUsersRepository usersRepository = new UsersRepository();
+			//UsersService _userService = new UsersService(usersRepository,null);
 
 			//_userService.GithubClient = new GithubClient();			
 		}

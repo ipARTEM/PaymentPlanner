@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PaymentPlanner.Core
+namespace PaymentPlanner.Core.Services
 {
 	public interface IUsersService
 	{

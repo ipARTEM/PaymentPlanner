@@ -1,4 +1,4 @@
-﻿namespace PaymentPlanner.Core
+﻿namespace PaymentPlanner.Core.Repositories
 {
 	public interface IUsersRepository
 	{
