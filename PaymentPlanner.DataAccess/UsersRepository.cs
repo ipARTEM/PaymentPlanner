@@ -1,4 +1,5 @@
 ﻿using PaymentPlanner.Core;
+using PaymentPlanner.Core.Repositories;
 using System;
 
 namespace PaymentPlanner.DataAccess
