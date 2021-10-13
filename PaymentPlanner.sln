@@ -17,11 +17,15 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PaymentPlanner.DataBase", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DITests", "DITests\DITests.csproj", "{D9427F03-E193-4A28-90C4-6A2DCA17CBA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.BusinessLogic.MsTests", "PaymentPlanner.BusinessLogic.MsTests\PaymentPlanner.BusinessLogic.MsTests.csproj", "{CBF67093-64B3-4C6C-9415-DC4B56717BE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentPlanner.BusinessLogic.MsTests", "PaymentPlanner.BusinessLogic.MsTests\PaymentPlanner.BusinessLogic.MsTests.csproj", "{CBF67093-64B3-4C6C-9415-DC4B56717BE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.BusinessLogic.NTests", "PaymentPlanner.BusinessLogic.NTests\PaymentPlanner.BusinessLogic.NTests.csproj", "{C54ACDC8-A905-4C38-BD80-FBB918DE11C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentPlanner.BusinessLogic.NTests", "PaymentPlanner.BusinessLogic.NTests\PaymentPlanner.BusinessLogic.NTests.csproj", "{C54ACDC8-A905-4C38-BD80-FBB918DE11C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentPlanner.BusinessLogic.XTests", "PaymentPlanner.BusinessLogic.XTests\PaymentPlanner.BusinessLogic.XTests.csproj", "{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentPlanner.BusinessLogic.XTests", "PaymentPlanner.BusinessLogic.XTests\PaymentPlanner.BusinessLogic.XTests.csproj", "{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{8FEEDC2D-03E8-4784-83AF-66D2FD08A2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2App", "Test2App\Test2App.csproj", "{6317DB1C-AE3F-4318-A187-CE17E3E82826}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,14 @@ Global
 		{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{167A6715-E8B4-4CF5-AD39-B3EBFAC21081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEEDC2D-03E8-4784-83AF-66D2FD08A2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEEDC2D-03E8-4784-83AF-66D2FD08A2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEEDC2D-03E8-4784-83AF-66D2FD08A2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEEDC2D-03E8-4784-83AF-66D2FD08A2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6317DB1C-AE3F-4318-A187-CE17E3E82826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6317DB1C-AE3F-4318-A187-CE17E3E82826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6317DB1C-AE3F-4318-A187-CE17E3E82826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6317DB1C-AE3F-4318-A187-CE17E3E82826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
